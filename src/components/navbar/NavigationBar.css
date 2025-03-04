@@ -1,0 +1,12 @@
+#logo{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 0.9;
+    color: red;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px; /* Adjust the font size */
+    font-weight: 600; /* Make text bold (400 for normal, 700 for bolder) */
+  }
+  
