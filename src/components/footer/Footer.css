@@ -1,0 +1,22 @@
+.footerWrapper{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.footer-content{
+    color: rgb(155, 145, 145);
+}
+
+.footer-social-media{
+    display: flex;
+    gap: 20px;
+}
+
+i{
+    color: rgb(190, 182, 182);
+}

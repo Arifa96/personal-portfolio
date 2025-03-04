@@ -1,0 +1,50 @@
+.contactWrapper{
+    height: 90vh;
+    background-color: #ffe4ec;;
+}
+
+.contactWrapper h2{
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+#contactContainer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+#contactContainer h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(88, 85, 85);
+}
+
+#contact-content{
+    display: grid;
+}
+
+#contact-content a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(85, 80, 80);
+}
+
+@media(max-width:1000px){
+    #contactContainer{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .col-md-3{
+        width: 500px;
+        padding: 20px;
+    }
+}
